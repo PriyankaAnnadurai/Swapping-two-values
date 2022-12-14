@@ -18,7 +18,14 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+```python
+input1 = float(input())
+input2 = float(input())
+temp = input2
+input2 = input1
+input1 = temp
+print("Swapped values are: {} {}".format(input1,input2))
+```
 
 
 ## RESULT:
